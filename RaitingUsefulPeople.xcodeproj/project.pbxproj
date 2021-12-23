@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7883FF2B28E77A14EE7C2AD7 /* Pods_RaitingUsefulPeople.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B3A8325BC9A52ADA17AA07 /* Pods_RaitingUsefulPeople.framework */; };
+		DBFAD54E273BC8A500D6F792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAD54D273BC8A500D6F792 /* AppDelegate.swift */; };
+		DBFAD550273BC8A500D6F792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAD54F273BC8A500D6F792 /* SceneDelegate.swift */; };
+		DBFAD555273BC8A500D6F792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFAD553273BC8A500D6F792 /* Main.storyboard */; };
+		DBFAD557273BC8A600D6F792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFAD556273BC8A600D6F792 /* Assets.xcassets */; };
+		DBFAD55A273BC8A600D6F792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFAD558273BC8A600D6F792 /* LaunchScreen.storyboard */; };
+		DBFAD562273BD26400D6F792 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAD561273BD26400D6F792 /* TableViewController.swift */; };
+		DBFAD564273BD2C100D6F792 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAD563273BD2C100D6F792 /* Person.swift */; };
+		DBFAD566274BAE3B00D6F792 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAD565274BAE3B00D6F792 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B3A8325BC9A52ADA17AA07 /* Pods_RaitingUsefulPeople.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaitingUsefulPeople.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C249DA50D50BA98535192236 /* Pods-RaitingUsefulPeople.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaitingUsefulPeople.debug.xcconfig"; path = "Target Support Files/Pods-RaitingUsefulPeople/Pods-RaitingUsefulPeople.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFAD54A273BC8A500D6F792 /* RaitingUsefulPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaitingUsefulPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFAD54D273BC8A500D6F792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBFAD54F273BC8A500D6F792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBFAD554273BC8A500D6F792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBFAD556273BC8A600D6F792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBFAD559273BC8A600D6F792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBFAD55B273BC8A600D6F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFAD561273BD26400D6F792 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DBFAD563273BD2C100D6F792 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DBFAD565274BAE3B00D6F792 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E3CB45E236B024CF79957780 /* Pods-RaitingUsefulPeople.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaitingUsefulPeople.release.xcconfig"; path = "Target Support Files/Pods-RaitingUsefulPeople/Pods-RaitingUsefulPeople.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFAD547273BC8A500D6F792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7883FF2B28E77A14EE7C2AD7 /* Pods_RaitingUsefulPeople.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0EF14F09AEC708982B9D62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C249DA50D50BA98535192236 /* Pods-RaitingUsefulPeople.debug.xcconfig */,
+				E3CB45E236B024CF79957780 /* Pods-RaitingUsefulPeople.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBFAD541273BC8A500D6F792 = {
+			isa = PBXGroup;
+			children = (
+				DBFAD54C273BC8A500D6F792 /* RaitingUsefulPeople */,
+				DBFAD54B273BC8A500D6F792 /* Products */,
+				3A0EF14F09AEC708982B9D62 /* Pods */,
+				E50556D897CB4B29A6BBCF1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFAD54B273BC8A500D6F792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFAD54A273BC8A500D6F792 /* RaitingUsefulPeople.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFAD54C273BC8A500D6F792 /* RaitingUsefulPeople */ = {
+			isa = PBXGroup;
+			children = (
+				DBFAD54D273BC8A500D6F792 /* AppDelegate.swift */,
+				DBFAD54F273BC8A500D6F792 /* SceneDelegate.swift */,
+				DBFAD553273BC8A500D6F792 /* Main.storyboard */,
+				DBFAD561273BD26400D6F792 /* TableViewController.swift */,
+				DBFAD565274BAE3B00D6F792 /* TableViewCell.swift */,
+				DBFAD563273BD2C100D6F792 /* Person.swift */,
+				DBFAD556273BC8A600D6F792 /* Assets.xcassets */,
+				DBFAD558273BC8A600D6F792 /* LaunchScreen.storyboard */,
+				DBFAD55B273BC8A600D6F792 /* Info.plist */,
+			);
+			path = RaitingUsefulPeople;
+			sourceTree = "<group>";
+		};
+		E50556D897CB4B29A6BBCF1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B3A8325BC9A52ADA17AA07 /* Pods_RaitingUsefulPeople.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFAD549273BC8A500D6F792 /* RaitingUsefulPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFAD55E273BC8A600D6F792 /* Build configuration list for PBXNativeTarget "RaitingUsefulPeople" */;
+			buildPhases = (
+				14B1064D07B179EC191297B3 /* [CP] Check Pods Manifest.lock */,
+				DBFAD546273BC8A500D6F792 /* Sources */,
+				DBFAD547273BC8A500D6F792 /* Frameworks */,
+				DBFAD548273BC8A500D6F792 /* Resources */,
+				D14A83BB5AC61B8228137716 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaitingUsefulPeople;
+			productName = RaitingUsefulPeople;
+			productReference = DBFAD54A273BC8A500D6F792 /* RaitingUsefulPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFAD542273BC8A500D6F792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DBFAD549273BC8A500D6F792 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = DBFAD545273BC8A500D6F792 /* Build configuration list for PBXProject "RaitingUsefulPeople" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFAD541273BC8A500D6F792;
+			productRefGroup = DBFAD54B273BC8A500D6F792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFAD549273BC8A500D6F792 /* RaitingUsefulPeople */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFAD548273BC8A500D6F792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFAD55A273BC8A600D6F792 /* LaunchScreen.storyboard in Resources */,
+				DBFAD557273BC8A600D6F792 /* Assets.xcassets in Resources */,
+				DBFAD555273BC8A500D6F792 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B1064D07B179EC191297B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaitingUsefulPeople-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14A83BB5AC61B8228137716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RaitingUsefulPeople/Pods-RaitingUsefulPeople-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RaitingUsefulPeople/Pods-RaitingUsefulPeople-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RaitingUsefulPeople/Pods-RaitingUsefulPeople-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFAD546273BC8A500D6F792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFAD564273BD2C100D6F792 /* Person.swift in Sources */,
+				DBFAD54E273BC8A500D6F792 /* AppDelegate.swift in Sources */,
+				DBFAD566274BAE3B00D6F792 /* TableViewCell.swift in Sources */,
+				DBFAD550273BC8A500D6F792 /* SceneDelegate.swift in Sources */,
+				DBFAD562273BD26400D6F792 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBFAD553273BC8A500D6F792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFAD554273BC8A500D6F792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBFAD558273BC8A600D6F792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFAD559273BC8A600D6F792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFAD55C273BC8A600D6F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBFAD55D273BC8A600D6F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBFAD55F273BC8A600D6F792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C249DA50D50BA98535192236 /* Pods-RaitingUsefulPeople.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2774598DC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaitingUsefulPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NovikovIlya.RaitingUsefulPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBFAD560273BC8A600D6F792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CB45E236B024CF79957780 /* Pods-RaitingUsefulPeople.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2774598DC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaitingUsefulPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NovikovIlya.RaitingUsefulPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFAD545273BC8A500D6F792 /* Build configuration list for PBXProject "RaitingUsefulPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFAD55C273BC8A600D6F792 /* Debug */,
+				DBFAD55D273BC8A600D6F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFAD55E273BC8A600D6F792 /* Build configuration list for PBXNativeTarget "RaitingUsefulPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFAD55F273BC8A600D6F792 /* Debug */,
+				DBFAD560273BC8A600D6F792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFAD542273BC8A500D6F792 /* Project object */;
+}
